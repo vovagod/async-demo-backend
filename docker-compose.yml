@@ -1,0 +1,26 @@
+version: "3.3"
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
+    links:
+      - mongoDB
+    depends_on:
+      - mongoDB
+  mongoDB:
+    image: mongo
+    ports:
+      - "27017:27017"
+    
+    
+
+    
+    
+   
+    
+    
+
+

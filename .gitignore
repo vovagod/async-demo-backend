@@ -1,0 +1,13 @@
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+myvenv
+mongodb
+docker-compose.yaml
+dockerfile
+help.py
+*.~lock*
